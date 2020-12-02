@@ -1,5 +1,5 @@
 arr = []
-with open("day1\data.txt") as my_file:
+with open("day01\data.txt") as my_file:
     for line in my_file:
         arr.append(int(line.split('\n')[0]))
         
